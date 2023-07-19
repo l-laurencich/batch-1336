@@ -26,11 +26,16 @@ end
 
 
 
-######### greeet #################
+######### greet #################
 
 def greet(first_name, last_name)
   greeting = "Hello #{first_name.capitalize} #{last_name.upcase}"
-  yield(greeting) if block_given?
+  if block_given?
+    new_greeting = yield(greeting)
+  else
+    new_greeting = greeting
+  end
+  new_greeting
 end
 
 
