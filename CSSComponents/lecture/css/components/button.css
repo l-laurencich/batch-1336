@@ -1,0 +1,15 @@
+/* green button  */
+
+.btn-green {
+  text-decoration: none;
+  padding: 8px 24px;
+  display: inline-block;
+  background-color: rgb(4, 144, 4);
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.btn-green:hover {
+  background-color: green;
+}
