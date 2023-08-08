@@ -49,6 +49,10 @@
   width: 100%;
 }
 
+.card-trip-img {
+  width: 100%;
+}
+
 .card-trip-details {
   display: flex;
   justify-content: space-between;
